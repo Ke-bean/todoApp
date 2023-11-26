@@ -1,3 +1,3 @@
 # Todo List App
 
-### This app is under development of now :)
+### This app is under development as of now :)
