@@ -4,53 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>To Do List Application</title>
+    <title>To-Do List</title>
 </head>
 <body>
-    <header id="main-header">
-        <div class="container">
-            <form action="" id="todo-form">
-                <input type="text" name="task-name" 
-                placeholder="e.g: Work on BAG final project" autofocus>
-                <button type="submit">Add Task</button>
-            </form>
+    <div class="container">
+        <h1>To-Do List</h1>
+        <div>
+            <input type="text" id="taskInput" placeholder="Add a new task">
+            <button onclick="addTask()">Submit</button>
         </div>
-        <h1>Today</h1>
-    </header>
-    <section>
-        <div class="container" id="main-content">
-            <ul class="stats">
-                <li>
-                    <span>Remaining</span>
-                    <span id="remaining-tasks">0</span>
-                </li>
-                <li>
-                    <span>Completed</span>
-                    <span id="completed-tasks">0</span>
-                </li>
-                <li>
-                    <span>Total</span>
-                    <span id="total-tasks">0</span>
-                </li>
-            </ul>
-            <ul class="todos">
-                <!-- <li>
-                    <div>
-                        <input type="checkbox" name="tasks" id="1">
-                        <span contenteditable>Task 1</span>
-                    </div>
-                    <button title="Remove Task" class="remove-task">Remove</button>
-                </li>
-                <li class="complete">
-                    <div>
-                        <input type="checkbox" name="tasks" id="2">
-                        <span>Task 2</span>
-                    </div>
-                    <button title="Remove Task" class="remove-task">Remove</button>
-                </li> -->
-            </ul>
-        </div>
-    </section>
- <script src="app.js"></script>   
+        <ul id="taskList"></ul>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
