@@ -1,3 +1,3 @@
 # Todo List App
 
-### This app is under development as of now :)
+### This simple app will help to you to manage and keep track of your daily todo activities
